@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6286F851660F47500666610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6286F841660F47500666610 /* UIKit.framework */; };
+		B6286F871660F47500666610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6286F861660F47500666610 /* Foundation.framework */; };
+		B6286F891660F47500666610 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6286F881660F47500666610 /* CoreGraphics.framework */; };
+		B6286F8F1660F47500666610 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6286F8D1660F47500666610 /* InfoPlist.strings */; };
+		B6286F911660F47500666610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6286F901660F47500666610 /* main.m */; };
+		B6286F951660F47500666610 /* JEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6286F941660F47500666610 /* JEAppDelegate.m */; };
+		B6286F971660F47500666610 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B6286F961660F47500666610 /* Default.png */; };
+		B6286F991660F47500666610 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6286F981660F47500666610 /* Default@2x.png */; };
+		B6286F9B1660F47600666610 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6286F9A1660F47600666610 /* Default-568h@2x.png */; };
+		B6286FA21660F49700666610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6286FA11660F49700666610 /* Main.storyboard */; };
+		B6286FA51660F99400666610 /* JEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6286FA41660F99400666610 /* JEViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6286F801660F47500666610 /* JsonEngineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonEngineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6286F841660F47500666610 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6286F861660F47500666610 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6286F881660F47500666610 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6286F8C1660F47500666610 /* JsonEngineTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JsonEngineTest-Info.plist"; sourceTree = "<group>"; };
+		B6286F8E1660F47500666610 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6286F901660F47500666610 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6286F921660F47500666610 /* JsonEngineTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JsonEngineTest-Prefix.pch"; sourceTree = "<group>"; };
+		B6286F931660F47500666610 /* JEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JEAppDelegate.h; sourceTree = "<group>"; };
+		B6286F941660F47500666610 /* JEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JEAppDelegate.m; sourceTree = "<group>"; };
+		B6286F961660F47500666610 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B6286F981660F47500666610 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B6286F9A1660F47600666610 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B6286FA11660F49700666610 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B6286FA31660F99400666610 /* JEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEViewController.h; sourceTree = "<group>"; };
+		B6286FA41660F99400666610 /* JEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JEViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6286F7D1660F47500666610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6286F851660F47500666610 /* UIKit.framework in Frameworks */,
+				B6286F871660F47500666610 /* Foundation.framework in Frameworks */,
+				B6286F891660F47500666610 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6286F751660F47500666610 = {
+			isa = PBXGroup;
+			children = (
+				B6286F8A1660F47500666610 /* JsonEngineTest */,
+				B6286F831660F47500666610 /* Frameworks */,
+				B6286F811660F47500666610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6286F811660F47500666610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6286F801660F47500666610 /* JsonEngineTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6286F831660F47500666610 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6286F841660F47500666610 /* UIKit.framework */,
+				B6286F861660F47500666610 /* Foundation.framework */,
+				B6286F881660F47500666610 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6286F8A1660F47500666610 /* JsonEngineTest */ = {
+			isa = PBXGroup;
+			children = (
+				B6286F931660F47500666610 /* JEAppDelegate.h */,
+				B6286F941660F47500666610 /* JEAppDelegate.m */,
+				B6286F8B1660F47500666610 /* Supporting Files */,
+				B6286FA11660F49700666610 /* Main.storyboard */,
+				B6286FA31660F99400666610 /* JEViewController.h */,
+				B6286FA41660F99400666610 /* JEViewController.m */,
+			);
+			path = JsonEngineTest;
+			sourceTree = "<group>";
+		};
+		B6286F8B1660F47500666610 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6286F8C1660F47500666610 /* JsonEngineTest-Info.plist */,
+				B6286F8D1660F47500666610 /* InfoPlist.strings */,
+				B6286F901660F47500666610 /* main.m */,
+				B6286F921660F47500666610 /* JsonEngineTest-Prefix.pch */,
+				B6286F961660F47500666610 /* Default.png */,
+				B6286F981660F47500666610 /* Default@2x.png */,
+				B6286F9A1660F47600666610 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6286F7F1660F47500666610 /* JsonEngineTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6286F9E1660F47600666610 /* Build configuration list for PBXNativeTarget "JsonEngineTest" */;
+			buildPhases = (
+				B6286F7C1660F47500666610 /* Sources */,
+				B6286F7D1660F47500666610 /* Frameworks */,
+				B6286F7E1660F47500666610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonEngineTest;
+			productName = JsonEngineTest;
+			productReference = B6286F801660F47500666610 /* JsonEngineTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6286F771660F47500666610 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JE;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hidetoshi Mori";
+			};
+			buildConfigurationList = B6286F7A1660F47500666610 /* Build configuration list for PBXProject "JsonEngineTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6286F751660F47500666610;
+			productRefGroup = B6286F811660F47500666610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6286F7F1660F47500666610 /* JsonEngineTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6286F7E1660F47500666610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6286F8F1660F47500666610 /* InfoPlist.strings in Resources */,
+				B6286F971660F47500666610 /* Default.png in Resources */,
+				B6286F991660F47500666610 /* Default@2x.png in Resources */,
+				B6286F9B1660F47600666610 /* Default-568h@2x.png in Resources */,
+				B6286FA21660F49700666610 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6286F7C1660F47500666610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6286F911660F47500666610 /* main.m in Sources */,
+				B6286F951660F47500666610 /* JEAppDelegate.m in Sources */,
+				B6286FA51660F99400666610 /* JEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6286F8D1660F47500666610 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6286F8E1660F47500666610 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6286F9C1660F47600666610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6286F9D1660F47600666610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6286F9F1660F47600666610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JsonEngineTest/JsonEngineTest-Prefix.pch";
+				INFOPLIST_FILE = "JsonEngineTest/JsonEngineTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6286FA01660F47600666610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JsonEngineTest/JsonEngineTest-Prefix.pch";
+				INFOPLIST_FILE = "JsonEngineTest/JsonEngineTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6286F7A1660F47500666610 /* Build configuration list for PBXProject "JsonEngineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6286F9C1660F47600666610 /* Debug */,
+				B6286F9D1660F47600666610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6286F9E1660F47600666610 /* Build configuration list for PBXNativeTarget "JsonEngineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6286F9F1660F47600666610 /* Debug */,
+				B6286FA01660F47600666610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6286F771660F47500666610 /* Project object */;
+}
